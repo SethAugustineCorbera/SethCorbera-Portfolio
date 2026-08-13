@@ -8,5 +8,5 @@ links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links
 const certTrack = document.getElementById('certTrack');
 const certPrev  = document.getElementById('certPrev');
 const certNext  = document.getElementById('certNext');
-certPrev.addEventListener('click', () => certTrack.scrollBy({ left: -340, behavior: 'smooth' }));
-certNext.addEventListener('click', () => certTrack.scrollBy({ left: 340, behavior: 'smooth' }));
+certPrev.addEventListener('click', () => certTrack.scrollBy({ left: -certTrack.clientWidth, behavior: 'smooth' }));
+certNext.addEventListener('click', () => certTrack.scrollBy({ left: certTrack.clientWidth, behavior: 'smooth' }));
