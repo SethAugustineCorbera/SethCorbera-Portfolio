@@ -300,6 +300,78 @@ h3 {
   color: #9e9993;
 }
 
+/* AFFILIATIONS */
+.affiliation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.affiliation-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background-color: #ffffff;
+  border: 1px solid #e5e2dd;
+  border-radius: 10px;
+  padding: 24px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.affiliation-card:hover {
+  border-color: #c4b5fd;
+  transform: translateY(-2px);
+}
+
+.affiliation-icon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background-color: #ede9fe;
+  color: #7c3aed;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.affiliation-body {
+  flex: 1;
+}
+
+.affiliation-body h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.affiliation-body p {
+  font-size: 13px;
+  color: #5c5752;
+  line-height: 1.5;
+}
+
+.affiliation-badge {
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #7c3aed;
+  background-color: #ede9fe;
+  padding: 6px 14px;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+@media (max-width: 540px) {
+  .affiliation-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
 /* CERTIFICATES */
 .cert-carousel {
   position: relative;
