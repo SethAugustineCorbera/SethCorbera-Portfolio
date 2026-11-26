@@ -1,5 +1,3 @@
-
-
 /* ---------- 1. MOBILE MENU ---------- */
 function setupMobileMenu() {
   var toggle = document.getElementById('navToggle');
@@ -108,6 +106,7 @@ function setupLightbox() {
 }
 
 
+/* ---------- START EVERYTHING ---------- */
 setupMobileMenu();
 setupHeaderScroll();
 setupActiveLink();
