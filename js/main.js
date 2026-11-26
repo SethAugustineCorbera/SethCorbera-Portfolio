@@ -1,12 +1,3 @@
-/* =========================================================
-   MAIN.JS
-   All the page behavior, one small function per feature:
-   1. Mobile menu
-   2. Header border on scroll
-   3. Highlight the current section in the menu
-   4. Certificate viewer (dialog)
-   This file is loaded with "defer", so the page is ready when it runs.
-   ========================================================= */
 
 
 /* ---------- 1. MOBILE MENU ---------- */
@@ -117,7 +108,6 @@ function setupLightbox() {
 }
 
 
-/* ---------- START EVERYTHING ---------- */
 setupMobileMenu();
 setupHeaderScroll();
 setupActiveLink();

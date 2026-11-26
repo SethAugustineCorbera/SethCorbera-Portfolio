@@ -1,12 +1,5 @@
-/* =========================================================
-   COMPONENTS.CSS
-   The building blocks used inside each section, in page order:
-   buttons, about, skills, projects, involvement, certificates,
-   certificate viewer.
-   ========================================================= */
 
-
-/* ---------- BUTTONS (hero) ---------- */
+/* ---------- BUTTONS ---------- */
 .btn {
   display: inline-block;
   font-family: 'Bricolage Grotesque', Arial, sans-serif;
@@ -68,7 +61,6 @@
   margin-bottom: 16px;
 }
 
-/* Three quick facts, side by side */
 .facts {
   display: flex;
   gap: 20px;
@@ -114,7 +106,6 @@
 
 
 /* ---------- SKILLS ---------- */
-/* Compact tiles: small icon on the left, name and type on the right */
 .skill-grid {
   display: flex;
   flex-wrap: wrap;
@@ -174,7 +165,6 @@
 
 
 /* ---------- PROJECTS ---------- */
-/* Text-only cards: a big outlined number, then title, description and tags */
 .project-list {
   display: flex;
   flex-direction: column;
@@ -233,7 +223,6 @@
   margin-bottom: 22px;
 }
 
-/* Small pills: project type (outlined) and technologies (filled, with a simple icon) */
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -322,7 +311,6 @@
 
 
 /* ---------- CERTIFICATES ---------- */
-/* Three cards per row on desktop. Clicking the picture opens it larger. */
 .cert-grid {
   display: flex;
   flex-wrap: wrap;
@@ -363,7 +351,6 @@
   border-radius: 0;
 }
 
-/* Every certificate sits in the same frame, so the cards line up */
 .cert-open img {
   width: 100%;
   aspect-ratio: 10 / 7;
@@ -448,7 +435,7 @@
 }
 
 
-/* ---------- CERTIFICATE VIEWER (dialog) ---------- */
+/* ---------- CERTIFICATE VIEWER ---------- */
 .lightbox {
   position: fixed;
   inset: 0;
